@@ -8,10 +8,10 @@
 00000000
 00000000 # mip mtip bit is reset
 00000000
-FFFFFFFF # mtimecmp is same as written value
-FFFFFFFF
-A5A5A5A5 # mtimecmph is same as written value
-FFFFFFFF
+ffffffff # mtimecmp is same as written value
+ffffffff
+a5a5a5a5 # mtimecmph is same as written value
+ffffffff
 00000000 # mip mtip is zero
 00000000
 00000080 # mip mtip is set
