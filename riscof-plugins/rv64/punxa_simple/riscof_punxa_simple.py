@@ -16,7 +16,7 @@ from riscof.pluginTemplate import pluginTemplate
 logger = logging.getLogger()
 
 class punxa_simple(pluginTemplate):
-    __model__ = "punxa"
+    __model__ = "punxa_simple"
 
     #TODO: please update the below to indicate family, version, etc of your DUT.
     __version__ = "XXX"
