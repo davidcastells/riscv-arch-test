@@ -162,7 +162,7 @@ class punxa_wally(pluginTemplate):
             # simcmd = simcmd + ';' + self.dut_exe + ' -m8796093022208 --isa={0} --log-commits -l my.elf 2> {1}'.format(self.isa, log_file)
             
             # wally uses 4 bytes in signatures
-            simcmd = 'python  /home/dcr/INT_RISCV/punxa/test/risc-arch-test/tb_signature.py  +signature={} +signature-granularity=4 {}'.format( sig_file, elf)
+            simcmd = 'python  /home/dcr/INT_RISCV/punxa/test/riscv-arch-test/tb_signature.py -mem_base=0x80000000 +signature={} +signature-granularity=4 {}'.format( sig_file, elf)
           else:
             simcmd = 'echo "NO RUN"'
 
