@@ -96,7 +96,7 @@ beef0110 # Test 11.3.1.3.4: read test success
 00000000
 beef0bb0 # read test success
 0440dead
-0000000c # Test 11.3.1.3.8: read test with page fault for nonzero reserved bit
+0000000d # Test 11.3.1.3.8: read test with page fault for nonzero reserved bit
 00000000
 00000bad
 00000000
